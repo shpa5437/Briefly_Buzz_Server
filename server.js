@@ -10,7 +10,7 @@ app.use(express.json());
 // Data fetching Server
 
 app.get('/hello', (req, res) => {
-  res.send("Hello World!")
+  res.status(200).send("Hello World!")
 })
 
 app.get('/:params', async (req, res) => {
