@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 app.use(cors())
 app.use(express.json());
 
-// Data fetching Server
+// Data fetching Server -- Heroku integration
 
 app.get('/hello', (req, res) => {
   res.status(200).send("Hello World!")
