@@ -4,7 +4,7 @@
   "description": "Api Server for news website Brieflybuzz",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "nodemon": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manan Doshi",
