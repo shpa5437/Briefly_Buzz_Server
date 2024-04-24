@@ -1,0 +1,19 @@
+{
+  "name": "brieflybuzz_server",
+  "version": "1.0.0",
+  "description": "Api Server for news website Brieflybuzz",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manan Doshi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "heroku": "^8.11.4",
+    "nodemon": "^3.1.0"
+  }
+}
